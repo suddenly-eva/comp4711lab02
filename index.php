@@ -31,7 +31,7 @@
           array_push($nouns, fgets($f_nouns)); 
         } 
 
-        // Pick random colour and print
+        // Pick random word and print
         $index = rand(0, sizeof($adjectives) - 1);
         echo $adjectives[$index];
         echo " ";
